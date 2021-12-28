@@ -1,4 +1,4 @@
-# Spring Boot Redis 연동 및 Cache 예제
+# Spring boot + Redis 연동 및 Cache 예제
 
 ### Redis 소개
 
@@ -160,5 +160,5 @@ public class CacheConfig {
 
 --- 
 
-간단하게 Redis Cache 기능을 구현해보았습니다. 소스코드는 [Github](https://github.com/minsoozz/notice)에서 확인하실 수 있습니다.
+간단하게 Spring boot + Redis 연동 Cache 기능을 구현해보았습니다. 소스코드는 [Github](https://github.com/minsoozz/notice)에서 확인하실 수 있습니다.
 
