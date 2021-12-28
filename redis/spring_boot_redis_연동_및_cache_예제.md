@@ -7,7 +7,7 @@
 ### Redis 설치
 
 ---
-`Redis`의 설치는 [https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100][링크] 에서 가능합니다
+`Redis`의 설치는 [링크](https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100) 에서 가능합니다
 
 ### 의존성 추가
 
@@ -156,10 +156,9 @@ public class CacheConfig {
 
 ![redis_cmd3](../images/redis_cmd3.png)
 
-
 ### 마무리
 
 --- 
 
-간단하게 Redis Cache 기능을 구현해보았습니다. 소스코드는 [https://github.com/minsoozz/notice][Github]에서 확인하실 수 있습니다.
+간단하게 Redis Cache 기능을 구현해보았습니다. 소스코드는 [Github](https://github.com/minsoozz/notice)에서 확인하실 수 있습니다.
 
