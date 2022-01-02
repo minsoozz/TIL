@@ -120,7 +120,6 @@
 
 ### List
 
-
 #### insert
 
 - 기본 사용법
@@ -130,7 +129,7 @@
         - `Key:(A,B)`
     - `Lpush <key> <C>`
         - `Key:(C,A,B)`
-        
+
 #### pop
 
 - 기본 사용법
@@ -165,4 +164,74 @@
 
 ### Sorted Set
 
+- 기본 사용법
+    - `ZADD <key> <Score> <value>`
+        - `value가 이미 Key에 있으면 Score로 변경된다`
+    - `ZRANGE <key> <StartIndex> <endIndex>`
+        - `해당 Index 범위 값을 모두 돌려줌`
+            - `Zrange testkey 0 -1`
+                - `모든 범위를 가져옴`
+
 ### Hash
+
+#### Key 밑에 sub key가 존재
+
+- 기본 사용법
+    - `Hmset <key> <subkey1> <value1> <subkey2> <value2>`
+    - `Hgetall <key>`
+        - `해당 key의 모든 subkey와 value를 가져옴`
+    - `Hget <key> <subkey>`
+    - `Hmget <key> <subkey1> <subkey2> ..... <subkeyN>`
+
+#### 간단한 SQL을 대체 한다면?
+
+- `insert into users(name,email) values('minsoo','minsoo1604@naver.com')`
+- `hmset minsoo name minsoo email minsoo1604@naver.com`
+
+### `Collection` 주의 사항
+
+- 하나의 컬렉션에 너무 많은 아이템을 담으면 좋지 않음
+    - 10000개 이하 몇천개 수준으로 유지하는게 좋음
+- Expire는 Collection의 item 개별로 걸리지 않고 전체 Collection에 대해서만 걸림
+    - 즉 해당 10000개 아이템을 가진 Collection에 expire가 걸려있다면 그 시간 후에 10000개의 아이템이 모두 삭제
+
+## `Redis` 운영
+
+### 메모리 관리를 잘하자
+
+- `Redis` 는 In-Memory Data Store
+- Physical Memory 이상을 사용하면 문제가 발생
+    - Swap 이 있다면 Swap 사용으로 해당 메모리 Page 접근시 마다 늦어짐
+    - Swap 이 없다면?
+- Maxmemory를 설정하더라도 이보다 더 사용할 가능성이 큼
+- RSS 값을 모니터링 해야함
+
+#### 메모리 관리
+
+- 큰 메모리를 사용하는 instance 하나보다는 적은 메모리를 사용하는 instance 여러개가 안전함
+- `Redis` 는 메모리 파편화가 발생할 수 있음. 4.x 대 부터 메모리 파현화를 줄이도록 jemlloc에 힌트를 주는 기능이 들어갔으나, jemalloc 버전에 따라서 다르게 동작할 수 있음
+- 3.x 대 버전의 경우
+    - 실제 userd memory는 2GB로 보고가 되지만 11GB의 RSS를 사용하는 경우가 자주 발생
+
+#### 메모리가 부족할 때는?
+
+- Cache is Cash
+    - 좀 더 메모리 많은 장비로 Migration
+    - 메모리가 빡빡하면 Migration 중에 문제가 발생할수도 있다
+- 있는 데이터 줄이기
+    - 데이터를 일정 수준에서만 사용하도록 특정 데이터를 줄임
+    - 다만 이미 Swap을 사용중이라면, 프로세스를 재시작 해야함
+
+#### 메모리를 줄이기 위한 설정
+
+- 기본적으로 Collection 들은 다음과 같은 자료구조를 사용
+    - Hash -> HashTable을 하나 더 사용
+    - Sorted Set -> Skiplist와 HashTable을 이용
+    - Set -> HashTable 사용
+    - 해당 자료구조들은 메모리를 많이 사용함
+- Ziplist를 이용하자
+
+### O(N) 관련 명령어는 주의하자
+
+- Replication
+- 권장 설정 Tip
