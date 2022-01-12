@@ -1,4 +1,4 @@
-# HTTP 기본
+HTTP 기본
 
 ## 모든 것이 HTTP
 
