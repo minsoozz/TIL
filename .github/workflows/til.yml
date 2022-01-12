@@ -2,7 +2,7 @@ name: Build README
 on:
   push:
     branches:
-    - main
+    - master
     paths-ignore:
     - README.md
 jobs:
