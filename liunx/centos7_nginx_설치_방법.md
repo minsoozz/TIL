@@ -30,7 +30,7 @@ sudo systemctl start nginx
 #### nginx 서비스를 활성화하고 시작한다.
 
 ### 4. nginx 접속 확인
-![nginx](../../images/nginx.png)
+![nginx](../images/nginx.png)
 #### 서버 IP&도메인 입력 후 정상적으로 nginx가 설치되었는지 확인한다. 
 
 
