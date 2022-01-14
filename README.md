@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_14 TILs and counting..._
+_15 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [HTTP 상태코드](http/http_상태코드.md) - Thu Jan 13 22:32:41 2022 +0900
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md) - Thu Jan 13 20:55:05 2022 +0900
-- [CentOS 7 사용자 계정 추가 방법](liunx/centos7_사용자_계정_추가_방법.md) - Thu Jan 13 20:55:05 2022 +0900
 
 ### Categories
 
@@ -29,6 +29,7 @@ _14 TILs and counting..._
 - [HTTP 기본](http/http_기본.md)
 - [HTTP 메소드](http/http_메소드.md)
 - [HTTP 메소드 활용](http/http_메소드_활용.md)
+- [HTTP 상태코드](http/http_상태코드.md)
 - [URI와 웹 브라우저 요청 흐름](http/uri와_웹_브라우저_요청_흐름.md)
 - [인터넷 통신](http/인터넷_네트워크.md)
 
