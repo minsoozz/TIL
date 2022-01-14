@@ -50,25 +50,33 @@
 
 #### 자동 리다이렉트 흐름
 
-```
+1. 요청
 
-1. 요청 
+```
 GET /event HTTP/1.1
 Host: localhost:8080
+```
 
 2. 응답
+
+```
 HTTP/1.1 301 Move Permanently
 Location: /new-event
+```
 
-3. 자동 리다이렉트
+4. 자동 리다이렉트
 
-4. 요청
+5. 요청
+
+```
 GET /new-event HTTP/1.1
 Host: localhost:8080
+```
 
-5. 응답
+6. 응답
+
+```
 HTTP/1.1 200 OK
-...
 ```
 
 #### 종류
@@ -116,21 +124,25 @@ PRG: 사용전
 1. 요청
 
 ```
-POST /order HTTP/1.1
-Host: localhost:8080
+
+POST /order HTTP/1.1 Host: localhost:8080
 
 itemId=mouse&count=1
+
 ```
 
 2. 주문데이터 저장
 
 ```
+
 mouse 1개
+
 ```
 
 3. 응답
 
 ```
+
 HTTP/1.1 200 OK
 
 <html>주문완료</html>
