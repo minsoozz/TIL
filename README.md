@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_17 TILs and counting..._
+_18 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md) - Sat Jan 22 13:10:42 2022 +0900
 - [HTTP 헤더 (2)](http/http_헤더2.md) - Wed Jan 19 18:24:20 2022 +0900
-- [HTTP 헤더 (1)](http/http_헤더1.md) - Wed Jan 19 18:24:20 2022 +0900
 
 ### Categories
 
@@ -21,6 +21,7 @@ _17 TILs and counting..._
 - [liunx](#liunx)
 - [redis](#redis)
 - [spring](#spring)
+- [vue](#vue)
 
 ### [git](#git)
 - [git 로컬 계정 설정하는 방법](git/로컬_계정_설정.md)
@@ -50,6 +51,9 @@ _17 TILs and counting..._
 ### [spring](#spring)
 - [JUnit5 정리](spring/junit5정리.md)
 - [mockito 정리](spring/mockito정리.md)
+
+### [vue](#vue)
+- [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
