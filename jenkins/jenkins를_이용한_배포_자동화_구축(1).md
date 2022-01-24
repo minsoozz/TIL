@@ -1,4 +1,4 @@
-# Jenkins를 이용한 배포 자동화 환경 구축하기
+# Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법
 
 기존 사내에서는 `PuTTY` 와 `FileZilla`를 사용하여 배포를 진행하고 있었다. 요구사항의 변경과 충분한 테스트 검증이 되지 않은 기능이 반영되어 사이드 이펙트를 발생하는 일이 잦았고, 최근 테스트
 서버까지 추가되면서 배포의 비용(시간)이 많이 소모되었다. 여러가지 CI 도구들이 있지만 무료 및 오픈소스이면서, 레퍼런스가 많은 `Jenkins` 를 채택하였다.
@@ -76,6 +76,10 @@ Jenkins URL을 설정한다 특별히 변경이 필요없다면 Save and Finish 
 
 ![jenkins_url](../images/jenkins_url.png)
 
-Jenkins를 시작하기 위한 기본 설정이 완료되었다 Start using Jenkins 버튼을 클릭한다
+Start using Jenkins 버튼을 클릭하면 Jenkins 메인화면이 나온다
 
 ![jenkins_setting_finish](../images/jenkins_setting_finish.png)
+
+![jenkins_main](../images/jenkins_main.png)
+
+배포 자동화를 위한 첫번째 단계인 Docker를 이용한 Jenkins 설치가 모두 끝났다
