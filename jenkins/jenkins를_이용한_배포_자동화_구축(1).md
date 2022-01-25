@@ -52,13 +52,13 @@ docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -
 
 ![docker_login.png](../images/docker_login.png)
 
-초기 관리자 비밀번호를 입력하라는 화면이 나오고 다시 터미널로 이동하고 아래의 명령어를 입력한다
+초기 관리자 비밀번호를 입력하라는 화면이 나오면 다시 터미널로 이동하여 아래의 명령어를 입력한다
 
 ```
 docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 
-터미널에 출력되는 문자열을 복사하여 비밀번호를 기입해준다
+터미널에 출력되는 문자열을 복사하고 화면에 비밀번호를 기입한다
 
 ## 4. 기본 플러그인 설치 및 젠킨스 기본 설정
 
