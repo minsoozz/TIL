@@ -45,7 +45,7 @@ docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -
 ## 3. Jenkins 접속 및 초기 관리자 비밀번호 확인
 
 ```
-[호스트 IP]:9999
+호스트 IP:9999
 ```
 
 호스트 IP와 설정한 포트를 입력하여 Jenkins 에 접속한다. 
