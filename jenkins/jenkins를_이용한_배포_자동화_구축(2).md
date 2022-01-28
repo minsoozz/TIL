@@ -50,7 +50,7 @@ cat .ssh/id_rsa.pub
 ## 3. Github SSH key 등록
 
 Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` 으로 이동 후 `SSH and GPG keys` 메뉴에서 `New SSH Key` 버튼을 클릭하여 위에서 복사한 id_rsa.pub 내용을
-붙혀넣기 한다
+붙혀넣기 합니다.
 
 > Repository의 Setting 메뉴에서도 SSH key를 등록할 수 있지만 다른 Repository 에서도 해당 Jenkins Server를 이용할 것이므로 계정에 등록해줍니다
 
@@ -58,7 +58,7 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 
 ## 4. Repository Webhook 설정
 
-배포 자동화를 구축할 Repository로 이동하여 `Setting` -> `Webhooks` -> `Add Webhooks` 를 클릭하여 다음과 같이 입력해준다
+배포 자동화를 구축할 Repository로 이동하여 `Setting` -> `Webhooks` -> `Add Webhooks` 를 클릭하여 다음과 같이 입력합니다.
 
 - 호스트 IP:9999/github-webhook/
 - Content type : application/json
@@ -74,11 +74,11 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 
 ## 6. Jenkins Credentials 설정
 
-`Jenkins` 의 메인 화면 에서 좌측의 `새로운 item` -> `FreeStyle project` 를 선택하고 `OK` 버튼을 눌러 다음 화면으로 이동한다
+`Jenkins` 의 메인 화면 에서 좌측의 `새로운 item` -> `FreeStyle project` 를 선택하고 `OK` 버튼을 눌러 다음 화면으로 이동합니다.
 
 ![new_item.png](../images/new_item.png)
 
-소스 코드 관리 탭에서 `Git` 을 선택하고 Repository URL을 기입해준다
+소스 코드 관리 탭에서 `Git` 을 선택하고 Repository URL을 기입합니다.
 
 > Repository URL은 Github Repository 주소로 이동하여 Code 버튼을 클릭하면 확인할 수 있다. 꼭 SSH 경로를 기입해야한다
 
@@ -86,29 +86,29 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 
 ![github_ssh](../images/github_ssh_clone.png)
 
-SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 오류가 발생한다.
+SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 오류가 발생하는데 아래의 설정을 따라 기입합니다.
 
-`Credentials` -> `Add` 를 클릭해서 다음과 같이 설정한다.
+`Credentials` -> `Add` 를 클릭
 
-- ID : Credentials의 ID를 적절하게 작성하면 된다
+- ID : Credentials의 ID를 작성
 - Description : Credentials의 설명을 작성
-- Username : Github ID를 입력해야 한다
-- Private Key : Enter directly 클릭 후 `id_rsa` private key를 기입해주어야 한다
+- Username : Github ID를 입력
+- Private Key : Enter directly 클릭 후 `id_rsa` private key를 입력
 
 ```
 cat .ssh/id_rsa.pub
 ```
 
-> -----BEGIN RSA PRIVATE KEY-----, -----END RSA PRIVATE KEY----- 영역까지 모두 복사해야 한다
+> -----BEGIN RSA PRIVATE KEY-----, -----END RSA PRIVATE KEY----- 영역까지 모두 복사해야 합니다
 
 ![add_credentials.png](../images/add_credentials.png)
 
-만약 정상적으로 등록이 되었다면 아래의 화면처럼 오류 문구 없이 연동이 완료된다.
+만약 정상적으로 등록이 되었다면 아래의 화면처럼 오류 문구 없이 연동이 완료됩니다.
 
 ![credentials_success](../images/credentials_success.png)
 
-Github와 Jenkins 연동이 완료되었다면 원격서버를 배포하기 위한 과정이 남았다
+Github와 Jenkins 연동이 완료되었다면 원격서버를 배포하기 위한 과정이 남았습니다
 
-`Publish over SSH` 를 이용한 배포 과정은 다음 포스팅에서 작성하겠습니다.
+`Publish over SSH` 를 이용한 원격서버 배포는 다음 포스팅에 이어서 작성하겠습니다.
 
 
