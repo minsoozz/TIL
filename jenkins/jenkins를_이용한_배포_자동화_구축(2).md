@@ -1,6 +1,6 @@
 # Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법
 
-Jenkins와 Github 연동은 Github에서 제공하는 Github Webhook 을 이용하도록 하겠습니다
+Jenkins와 Github 연동은 Github에서 제공하는 Github Webhook 을 이용하도록 하겠습니다.
 
 아직 Jenkins 환경이 구축되지 않았다면 [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](/jenkins를_이용한_배포_자동화_구축(1).md) 에서 확인할 수 있습니다
 
@@ -13,16 +13,16 @@ Webhook는 역방향 API라고 불리는데 일반적인 API는 요청을 하면
 
 ## 1. GitHub Integration Plugin 설치
 
-젠킨스 메인화면 좌측의 Jenkins 관리 -> 플러그인 관리 메뉴를 클릭합니다
+젠킨스 메인화면 좌측의 Jenkins 관리 -> 플러그인 관리 메뉴를 클릭합니다.
 
 ![jenkins_plugin.png](../images/jenkins_plugin.png)
 
-설치가능 탭에서 `GitHub Integration` 을 검색하고 `Download now and install after restart` 버튼을 눌러 설치합니다
+설치가능 탭에서 `GitHub Integration` 을 검색하고 `Download now and install after restart` 버튼을 눌러 설치합니다.
 
 ![github_integration.png](../images/github_integration1.png)
 
 플러그인 적용을 위해 `설치가 끝나고 실행중인 작업이 없으면 Jenkins 재시작.` 항목에 체크를 하고 Jenkins를 재시작합니다. 만약 설치가 완료되어도 반응이 없거나, 체크박스에 클릭을 미처하지 못했다면
-아래의 URL로 이동하여 Jenkins를 재시작 할 수 있습니다
+아래의 URL로 이동하여 Jenkins를 재시작 할 수 있습니다.
 
 ```
 호스트 IP:9999/restart
@@ -32,8 +32,8 @@ Webhook는 역방향 API라고 불리는데 일반적인 API는 요청을 하면
 
 ## 2. SSH key 발급
 
-젠킨스가 설치되어있는 서버로 이동하여 아래의 명령어를 입력한다. 필자는 jenkins 라는 계정을 생성하여 해당 디렉토리에 생성하였다. 지금은 다른 설정을 할 필요가 없으므로 Enter 버튼을 계속 눌러 진행하면
-된다
+젠킨스가 설치되어있는 서버로 이동하여 아래의 명령어를 입력한다. 글쓴이는 jenkins 라는 계정을 생성하여 해당 디렉토리에 생성하였습니다. 지금은 다른 설정을 할 필요가 없으므로 Enter 버튼을 계속 눌러 진행하면
+됩니다.
 
 ```
 ssh-keygen
@@ -41,7 +41,7 @@ ssh-keygen
 
 ![ssh_keygen.png](../images/ssh_keygen.png)
 
-public key와 private key가 생성되었다면 public key를 복사한다.
+public key와 private key가 생성되었다면 public key를 복사합니다.
 
 ```
 cat .ssh/id_rsa.pub
@@ -109,6 +109,6 @@ cat .ssh/id_rsa.pub
 
 Github와 Jenkins 연동이 완료되었다면 원격서버를 배포하기 위한 과정이 남았습니다
 
-`Publish over SSH` 를 이용한 원격서버 배포는 다음 포스팅에 이어서 작성하겠습니다.
+`Publish over SSH` 를 이용한 원격서버 배포는 다음 포스팅에 이어서 진행하겠습니다.
 
 
