@@ -10,7 +10,7 @@ _19 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [Jenkins를 이용한 배포 자동화 환경 구축하기](jenkins/jenkins를_이용한_배포_자동화_환경_구축.md) - Sun Jan 23 20:19:19 2022 +0900
+- [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md) - Mon Jan 24 20:19:19 2022 +0900
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md) - Sat Jan 22 13:10:42 2022 +0900
 
 ### Categories
@@ -41,7 +41,7 @@ _19 TILs and counting..._
 - [intellij-java-google-style.xml 적용 방법](intellij/intellij-java-google-style.xml_적용_방법.md)
 
 ### [jenkins](#jenkins)
-- [Jenkins를 이용한 배포 자동화 환경 구축하기](jenkins/jenkins를_이용한_배포_자동화_환경_구축.md)
+- [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
 
 ### [liunx](#liunx)
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md)
