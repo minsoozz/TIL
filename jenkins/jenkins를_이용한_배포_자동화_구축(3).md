@@ -19,7 +19,7 @@ https://archives.jenkins-ci.org/plugins/publish-over-ssh/latest/ 에 접속하�
 
 `Jenkins 관리` -> `플러그인 관리` -> `고급` -> `플러그인 올리기` 으로 이동하여 다운로드 파일을 첨부 후 `올리기` 버튼을 클릭하면 설치를 수동으로 진행할 수 있습니다.
 
-![hpi.png](hpi.png)
+![hpi.png](../images/hpi.png)
 
 ## 2. Jenkins 서버에서 SSH key 발급
 
