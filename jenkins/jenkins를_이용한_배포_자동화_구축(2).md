@@ -1,9 +1,8 @@
 # Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법
 
-Jenkins와 Github 연동은 Github에서 제공하는 Github Webhook 을 이용하여 연동할 수 있습니다
+Jenkins와 Github 연동은 Github에서 제공하는 Github Webhook 을 이용하도록 하겠습니다
 
-아직 Jenkins 환경이 구축되지 않았다면 [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md) 에서 확인할 수
-있습니다
+아직 Jenkins 환경이 구축되지 않았다면 [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](/jenkins를_이용한_배포_자동화_구축(1).md) 에서 확인할 수 있습니다
 
 ## Github Webhook 이란?
 
@@ -87,7 +86,9 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 
 ![github_ssh](../images/github_ssh_clone.png)
 
-SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 과 같은 오류가 발생한다. `Credentials` -> `Add` 를 클릭한다
+SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 오류가 발생한다.
+
+`Credentials` -> `Add` 를 클릭해서 다음과 같이 설정한다.
 
 - ID : Credentials의 ID를 적절하게 작성하면 된다
 - Description : Credentials의 설명을 작성
@@ -105,5 +106,9 @@ cat .ssh/id_rsa.pub
 만약 정상적으로 등록이 되었다면 아래의 화면처럼 오류 문구 없이 연동이 완료된다.
 
 ![credentials_success](../images/credentials_success.png)
+
+Github와 Jenkins 연동이 완료되었다면 원격서버를 배포하기 위한 과정이 남았다
+
+`Publish over SSH` 를 이용한 배포 과정은 다음 포스팅에서 작성하겠습니다.
 
 

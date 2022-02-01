@@ -3,7 +3,7 @@
 기존 사내에서는 `PuTTY` 와 `FileZilla`를 사용하여 배포를 진행하고 있었다. 요구사항의 변경과 충분한 테스트 검증이 되지 않은 기능이 반영되어 사이드 이펙트를 발생하는 일이 잦았고, 최근 테스트
 서버까지 추가되면서 배포의 비용(시간)이 많이 소모되었다. 여러가지 CI 도구들이 있지만 무료 및 오픈소스이면서, 레퍼런스가 많은 `Jenkins` 를 채택하였다.
 
-***이 포스팅은 `Jenkins` 를 구축하려는 환경에 `Docker`가 설치되어 있다는 가정하에 작성되었습니다.***
+***이 포스팅은 `Jenkins` 를 구축 환경에 `Docker`가 설치되어 있다는 가정하에 작성되었습니다.***
 
 ## 구축 환경
 
@@ -24,13 +24,11 @@ docker pull jenkins/jenkins:lts
 
 ## 2. jenkins Image를 Container로 실행하기
 
-
 ```
 docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -p 9999:8080 -p 10000:50000 jenkins/jenkins:lts -d
 ```
 
-터미널에 위의 명령어를 기입하여 컨테이너를 실행한다. Volume, Port 옵션은 호스트 환경에 맞게 수정하면 된다.
-컨테이너 실행이 완료되었다면 `docker ps` 명령어를 통해 컨테이너를 확인한다
+터미널에 위의 명령어를 기입하여 컨테이너를 실행한다. Volume, Port 옵션은 호스트 환경에 맞게 수정하면 된다. 컨테이너 실행이 완료되었다면 `docker ps` 명령어를 통해 컨테이너를 확인한다
 
 #### 주요 옵션 설명
 
@@ -38,7 +36,7 @@ docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -
     - 컨테이너를 삭제하면 저장되어 있던 정보가 사라지기 때문에 볼륨을 사용하여 영속화 시킬수 있다
 - -e : 컨테이너 내에서 사용할 환경변수 설정
     - TimeZone 설정없이 컨테이너를 실행하면 시간이 동기화 되어있지 빌드 시간 표기가 제대로 되지 않는다
-- -p : 	호스트와 컨테이너의 포트를 연결
+- -p :    호스트와 컨테이너의 포트를 연결
     - 8080은 젠킨스 웹 서버 포트, 50000은 jnlp로 원격 빌드시 사용하는 포트
 - -d : 백그라운드 모드
 
@@ -48,7 +46,7 @@ docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -
 호스트 IP:9999
 ```
 
-호스트 IP와 설정한 포트를 입력하여 Jenkins 에 접속한다. 
+호스트 IP와 설정한 포트를 입력하여 Jenkins 에 접속한다.
 
 ![docker_login.png](../images/docker_login.png)
 
@@ -82,4 +80,6 @@ Start using Jenkins 버튼을 클릭하면 Jenkins 메인화면이 나온다
 
 ![jenkins_main](../images/jenkins_main.png)
 
-배포 자동화를 위한 첫번째 단계인 Docker를 이용한 Jenkins 설치가 모두 끝났다
+배포 자동화를 위한 Docker를 이용한 Jenkins 설치가 모두 끝났다. 
+
+Github Webhook 을 이용한 Jenkins 와 Github 연동은 다음 포스팅에서 작성하겠습니다
