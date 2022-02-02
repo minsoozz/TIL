@@ -99,7 +99,7 @@ Install suggested plugins 클릭하여 기본 플러그인을 설치합니다.
 
 ![jenkins_admin_setting.png](../images/jenkins_admin_setting.png)
 
-Jenkins URL을 설정한다 특별히 변경이 필요없다면 Save and Finish 버튼을 클릭합니다.
+Jenkins URL을 설정합니다. 특별히 변경이 필요없다면 Save and Finish 버튼을 클릭합니다.
 
 ![jenkins_url](../images/jenkins_url.png)
 
