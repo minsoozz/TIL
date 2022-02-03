@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_20 TILs and counting..._
+_21 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [Jenkins를 이용한 배포 자동화(3) - Publish Over SSH 를 이용한 원격 서버 배포](jenkins/jenkins를_이용한_배포_자동화_구축(3).md) - Sat Jan 29 11:00:19 2022 +0900
 - [Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(2).md) - Tue Jan 25 21:21:00 2022 +0900
-- [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md) - Mon Jan 24 20:19:19 2022 +0900
 
 ### Categories
 
@@ -43,6 +43,7 @@ _20 TILs and counting..._
 ### [jenkins](#jenkins)
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
 - [Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(2).md)
+- [Jenkins를 이용한 배포 자동화(3) - Publish Over SSH 를 이용한 원격 서버 배포](jenkins/jenkins를_이용한_배포_자동화_구축(3).md)
 
 ### [liunx](#liunx)
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md)
