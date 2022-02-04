@@ -23,7 +23,11 @@ https://archives.jenkins-ci.org/plugins/publish-over-ssh/latest/ 에 접속하�
 
 ## 2. Publish Over SSH 설정
 
-젠킨스 서버 터미널에 다음과 같이 명령어를 입력합니다.
+Docker 컨테이너 내부로 접근합니다
+
+```
+docker exec -it jenkins /bin/bash
+```
 
 ```
 ssh-keygen -t rsa -C "jenkins" -m PEM -P "" -f /home/jenkins/.ssh/id_rsa
