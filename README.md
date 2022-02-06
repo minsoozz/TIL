@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_21 TILs and counting..._
+_23 TILs and counting..._
 
 ---
 
@@ -44,6 +44,7 @@ _21 TILs and counting..._
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
 - [Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(2).md)
 - [Jenkins를 이용한 배포 자동화(3) - Publish Over SSH 를 이용한 원격 서버 배포](jenkins/jenkins를_이용한_배포_자동화_구축(3).md)
+- [jenkins를 이요한 배포 자동화(4) - Jenkins & Slack 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(4).md)
 
 ### [liunx](#liunx)
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md)
@@ -55,6 +56,7 @@ _21 TILs and counting..._
 - [Spring boot + Redis 연동 및 Cache 예제](redis/spring_boot_redis_연동_및_cache_예제.md)
 
 ### [spring](#spring)
+- [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
 - [JUnit5 정리](spring/junit5정리.md)
 - [mockito 정리](spring/mockito정리.md)
 
