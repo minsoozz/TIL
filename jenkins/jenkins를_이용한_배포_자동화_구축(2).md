@@ -64,7 +64,7 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 - Content type : application/json
 - Just the push event, Active 체크박스 활성화
 
-> Payload URL 마지막에 / 기입을 하지 않으면 Webhooks Trigger시 오류가 발생합니다
+> Payload URL 마지막에 / 입력을 하지 않으면 Webhooks Trigger시 오류가 발생합니다
 
 ![github_webhook](../images/github_webhook.png)
 
@@ -78,15 +78,15 @@ Github에 로그인하여 우측 상단의 프로필을 클릭하고 `Setting` �
 
 ![new_item.png](../images/new_item.png)
 
-소스 코드 관리 탭에서 `Git` 을 선택하고 Repository URL을 기입합니다.
+소스 코드 관리 탭에서 `Git` 을 선택하고 Repository URL을 입력합니다.
 
-> Repository URL은 Github Repository 주소로 이동하여 Code 버튼을 클릭하면 확인할 수 있다. 꼭 SSH 경로를 기입해야한다
+> Repository URL은 Github Repository 주소로 이동하여 Code 버튼을 클릭하면 확인할 수 있다. 꼭 SSH 경로를 입력해야한다
 
 ![jenkins_source_code_manage](../images/jenkins_source_code_manage.png)
 
 ![github_ssh](../images/github_ssh_clone.png)
 
-SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 오류가 발생하는데 아래의 설정을 따라 기입합니다.
+SSH 경로를 붙혀넣기하면 `git@github.com: Permission denied (publickey)` 오류가 발생하는데 아래의 설정을 따라 입력합니다.
 
 `Credentials` -> `Add` 를 클릭
 
@@ -107,8 +107,8 @@ cat .ssh/id_rsa.pub
 
 ![credentials_success](../images/credentials_success.png)
 
-Github와 Jenkins 연동이 완료되었다면 원격서버를 배포하기 위한 과정이 남았습니다
+Github와 Jenkins 연동이 완료되었다면 원격 서버를 배포하기 위한 과정이 남았습니다
 
-`Publish over SSH` 를 이용한 원격서버 배포는 다음 포스팅에 이어서 진행하겠습니다.
+`Publish over SSH` 를 이용한 원격 서버 배포는 다음 포스팅에 이어서 진행하겠습니다.
 
 
