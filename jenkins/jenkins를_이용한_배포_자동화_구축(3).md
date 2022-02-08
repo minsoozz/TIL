@@ -134,7 +134,3 @@ build
 설정이 모두 끝났으면 `main branch` 에 `Push` 를 진행하여 `Item Build History` -> `Console Ouput` 에서 정상적으로 `Build` 에 성공하였는지 확인합니다.
 
 ![success](../images/success.png)
-
-`Publish Over SSH` 를 이용한 원격 서버 배포과정이 모두 끝났습니다.
-
-`Jenkins` 와 `Slack` 을 연동하여 `Build` 과정을 알림 받을 수 있는 방법은 다음 포스팅에 이어서 진행하겠습니다.

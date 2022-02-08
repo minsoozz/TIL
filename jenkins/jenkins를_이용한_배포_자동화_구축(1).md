@@ -110,5 +110,3 @@ Start using Jenkins 버튼을 클릭하면 Jenkins 메인화면이 나옵니다.
 ![jenkins_main](../images/jenkins_main.png)
 
 배포 자동화를 위한 Docker를 이용한 Jenkins 설치가 모두 끝났습니다.
-
-`Github Webhook` 을 이용한 `Jenkins` 와 `Github` 연동은 다음 포스팅에 이어서 진행하겠습니다.

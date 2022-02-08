@@ -107,8 +107,5 @@ cat .ssh/id_rsa.pub
 
 ![credentials_success](../images/credentials_success.png)
 
-Github와 Jenkins 연동이 완료되었다면 원격 서버를 배포하기 위한 과정이 남았습니다
-
-`Publish over SSH` 를 이용한 원격 서버 배포는 다음 포스팅에 이어서 진행하겠습니다.
 
 
