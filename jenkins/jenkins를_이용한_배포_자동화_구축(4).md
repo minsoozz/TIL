@@ -14,7 +14,7 @@
 
 `Slack` 하단의 `Apps` -> `Add apps` 탭에서 `Jenkins CI` 를 검색하고 `Add` 를 클릭합니다.
 
-![jenkins_main](../images/jenkins_main.png)
+![jenkins_main](../images/slack_main.png)
 
 `Add to Slack` 을 클릭합니다.
 
