@@ -57,8 +57,8 @@ _23 TILs and counting..._
 
 ### [spring](#spring)
 - [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
-- [JUnit5 정리](spring/junit5정리.md)
-- [mockito 정리](spring/mockito정리.md)
+- [JUnit5 정리](spring/junit5.md)
+- [mockito 정리](spring/mockito.md)
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
