@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_23 TILs and counting..._
+_24 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [Jenkins를 이용한 배포 자동화(3) - Publish Over SSH 를 이용한 원격 서버 배포](jenkins/jenkins를_이용한_배포_자동화_구축(3).md) - Sat Jan 29 11:00:19 2022 +0900
-- [Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(2).md) - Tue Jan 25 21:21:00 2022 +0900
+- [템플릿_메소드_패턴 예제](spring/템플릿_메소드_패턴.md) - Fri Feb 11 17:48:39 2022 +0900
+- [mockito 정리](spring/mockito.md) - Fri Feb 11 17:48:39 2022 +0900
 
 ### Categories
 
@@ -59,6 +59,7 @@ _23 TILs and counting..._
 - [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
 - [JUnit5 정리](spring/junit5.md)
 - [mockito 정리](spring/mockito.md)
+- [템플릿_메소드_패턴 예제](spring/템플릿_메소드_패턴.md)
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
