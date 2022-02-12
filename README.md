@@ -10,7 +10,7 @@ _24 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [템플릿_메소드_패턴 예제](spring/템플릿_메소드_패턴.md) - Fri Feb 11 17:48:39 2022 +0900
+- [템플릿_메소드_패턴](java/template_method_pattern.md) - Sat Feb 12 16:09:54 2022 +0900
 - [mockito 정리](spring/mockito.md) - Fri Feb 11 17:48:39 2022 +0900
 
 ### Categories
@@ -18,6 +18,7 @@ _24 TILs and counting..._
 - [git](#git)
 - [http](#http)
 - [intellij](#intellij)
+- [java](#java)
 - [jenkins](#jenkins)
 - [liunx](#liunx)
 - [redis](#redis)
@@ -40,6 +41,9 @@ _24 TILs and counting..._
 ### [intellij](#intellij)
 - [intellij-java-google-style.xml 적용 방법](intellij/intellij-java-google-style.xml_적용_방법.md)
 
+### [java](#java)
+- [템플릿_메소드_패턴](java/template_method_pattern.md)
+
 ### [jenkins](#jenkins)
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
 - [Jenkins를 이용한 배포 자동화(2) - Jenkins & Github 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(2).md)
@@ -59,7 +63,6 @@ _24 TILs and counting..._
 - [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
 - [JUnit5 정리](spring/junit5.md)
 - [mockito 정리](spring/mockito.md)
-- [템플릿_메소드_패턴 예제](spring/템플릿_메소드_패턴.md)
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
