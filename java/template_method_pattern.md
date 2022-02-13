@@ -35,7 +35,7 @@
 ```
 public class Minsoo {
 
-    public void school() {
+    public void dailyLesson() {
         goToSchool();
         study();
         goToHome();
@@ -58,7 +58,7 @@ public class Minsoo {
 ```
 public class Soomin {
 
-    public void school() {
+    public void dailyLesson() {
         goToSchool();
         study();
         goToHome();
@@ -86,16 +86,16 @@ public class TemplateMethodBeforeTest {
         Minsoo minsoo = new Minsoo();
         Soomin soomin = new Soomin();
 
-        minsoo.school();
+        minsoo.dailyLesson();
         System.out.println("============");
-        soomin.school();
+        soomin.dailyLesson();
     }
 }
 ```
 
 ![template_method_pattern_console](../images/template_method_pattern_console.png)
 
-예쁘게 잘 출력이 되지만 `Minsoo` 클래스와 `Soomin` 클래스를 비교해보면 중복이 존재합니다.
+예쁘게 잘 구현한것 같지만 `Minsoo` 클래스와 `Soomin` 다시 살펴보면 중복이 존재합니다.
 
 ***만약 학생 클래스가 수백개라면???***
 
@@ -103,7 +103,7 @@ public class TemplateMethodBeforeTest {
 
 `중복된 메소드를 추상 클래스를 사용하면 중복을 줄일 수 있지 않을까?`
 
-알고리즘의 구조를 그대로 유지하면서 공통되는 부분을 추상화해보자.
+알고리즘의 구조를 그대로 유지하면서 공통되는 부분을 추상화해보겠습니다.
 
 ```
 public abstract class School {
@@ -126,8 +126,8 @@ public abstract class School {
 }
 ```
 
-`School` 이라는 추상 클래스를 만들어 공통되는 부분인 `goToSchool` `goToHome` 를 구현하였고, `dailyLesson` 메소드에 추가해주었다. 학생들마다 듣는 수업이 각자 다를 수
-있으니 `study` 라는 메소드는 `School` 클래스를 상속받은 각 학생 클래스에서 구현할 것이다.
+`School` 이라는 추상 클래스를 만들어 공통되는 부분인 `goToSchool` `goToHome` 를 구현하였고, `dailyLesson` 메소드에 추가해주었습니다. 학생들마다 듣는 수업이 각자 다를 수
+있으니 `study` 라는 메소드는 `School` 클래스를 상속받은 각 학생 클래스에서 구현합니다.
 
 ```
 public class Minsoo extends School {
@@ -147,3 +147,25 @@ public class SooMin extends School {
 }
 ```
 
+```
+public class TemplateMethodAfterTest {
+
+    @Test
+    void test(){
+        Minsoo minsoo = new Minsoo();
+        SooMin sooMin = new SooMin();
+
+        minsoo.dailyLesson();
+        System.out.println("============");
+        sooMin.dailyLesson();
+    }
+}
+```
+
+템플릿 메소드 패턴 적용 예시를 클래스 다이어그램으로 표현하면 다음과 같습니다.
+
+![template_method_pattern_diagram](../images/template_method_pattern_diagram.png)
+
+## 결론
+
+결과적으로 템플릿 메소드 패턴은 동일한 과정을 수행하는 `변하지 않는 것` 과 확장할 기능인 `변하는 것` 을 분리하여 상위 클래스에 정의를 하고, 상위 클래스가 하위 클래스를 호출하는 것이 특징인 디자인 패턴이다.
