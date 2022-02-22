@@ -10,8 +10,8 @@ _25 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [전략_패턴](java/strategy_pattern.md) - Sun Feb 20 11:41:43 2022 +0900
-- [템플릿_메소드_패턴](java/template_method_pattern.md) - Sat Feb 12 16:09:54 2022 +0900
+- [전략 패턴](java/strategy_pattern.md) - Sun Feb 20 11:41:43 2022 +0900
+- [템플릿 메소드 패턴](java/template_method_pattern.md) - Sat Feb 12 16:09:54 2022 +0900
 
 ### Categories
 
@@ -42,8 +42,8 @@ _25 TILs and counting..._
 - [intellij-java-google-style.xml 적용 방법](intellij/intellij-java-google-style.xml_적용_방법.md)
 
 ### [java](#java)
-- [전략_패턴](java/strategy_pattern.md)
-- [템플릿_메소드_패턴](java/template_method_pattern.md)
+- [전략 패턴](java/strategy_pattern.md)
+- [템플릿 메소드 패턴](java/template_method_pattern.md)
 
 ### [jenkins](#jenkins)
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
