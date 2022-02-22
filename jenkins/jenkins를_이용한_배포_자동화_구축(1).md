@@ -1,6 +1,6 @@
 # Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법
 
-기존 사내에서는 `PuTTY` 와 `FileZilla`를 사용하여 수동 배포를 진행하고 있습니다. 요구사항의 변경과 충분한 테스트 검증이 되지 않은 기능이 반영되어 사이드 이펙트를 발생하는 일이 잦았고, 최근 테스트
+기존 사내에서는 `PuTTY` 와 `FileZilla` 를 사용하여 수동 배포를 진행하고 있습니다. 요구사항의 변경과 충분한 테스트 검증이 되지 않은 기능이 반영되어 사이드 이펙트를 발생하는 일이 잦았고, 최근 테스트
 서버까지 추가되면서 배포의 비용(시간)이 많이 소모되었습니다. 여러가지 CI 도구들이 있지만 무료 및 오픈소스이면서, 레퍼런스가 많은 `Jenkins` 를 채택하였습니다.
 
 ***이 포스팅은 `Jenkins` 구축 환경에 `Docker`가 설치되어 있다는 가정하에 작성되었습니다.***
@@ -41,7 +41,7 @@ Docker 그룹에 사용자 추가가 완료되었다면 아래의 명령어를 �
 systemctl restart docker
 ```
 
-## 1. Docker Hub를 통한 Jenkins Image 다운로드
+## 3. Docker Hub를 통한 Jenkins Image 다운로드
 
 `jenkins` 계정으로 접속하여 아래 명령어를 통해 이미지를 다운로드 합니다
 
@@ -51,7 +51,7 @@ docker pull jenkins/jenkins:lts
 
 설치가 완료되었다면 `docker images` 명령어를 입력해 이미지가 잘 다운로드 되었는지 확인합니다.
 
-## 2. jenkins Image를 Container로 실행하기
+## 4. jenkins Image를 Container로 실행하기
 
 ```
 docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -p 9999:8080 -p 10000:50000 jenkins/jenkins:lts -d
@@ -69,7 +69,7 @@ docker run -v ./jenkins_home:/var/jenkins_home --name jenkins -e TZ=Asia/Seoul -
     - 8080은 젠킨스 웹 서버 포트, 50000은 jnlp로 원격 빌드시 사용하는 포트
 - -d : 백그라운드 모드
 
-## 3. Jenkins 접속 및 초기 관리자 비밀번호 확인
+## 5. Jenkins 접속 및 초기 관리자 비밀번호 확인
 
 ```
 호스트 IP:9999
@@ -87,7 +87,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 터미널에 출력되는 문자열을 복사하고 화면에 비밀번호를 입력합니다.
 
-## 4. 기본 플러그인 설치 및 젠킨스 기본 설정
+## 6. 기본 플러그인 설치 및 젠킨스 기본 설정
 
 Install suggested plugins 클릭하여 기본 플러그인을 설치합니다.
 
