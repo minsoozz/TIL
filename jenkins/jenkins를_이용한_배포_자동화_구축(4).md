@@ -1,4 +1,4 @@
-# jenkins를 이요한 배포 자동화(4) - Jenkins & Slack 연동 방법
+# Jenkins를 이용한 배포 자동화(4) - Jenkins & Slack 연동 방법
 
 `Jenkins` 를 이용하여 배포 자동화를 구축하였지만 매번 `Build` 에 성공하였는지 매번 상태를 확인해야하는 번거로움이 있습니다.
 
@@ -14,7 +14,7 @@
 
 `Slack` 하단의 `Apps` -> `Add apps` 탭에서 `Jenkins CI` 를 검색하고 `Add` 를 클릭합니다.
 
-![jenkins_main](../images/slack_main.png)
+![slack_main](../images/slack_main.png)
 
 `Add to Slack` 을 클릭합니다.
 
@@ -22,15 +22,15 @@
 
 `Jenkins` 의 알림을 수신받을 채널을 선택합니다.
 
-![slack_jenkins_configration1](../images/slack_jenkins_configuration1.png)
+![slack_jenkins_configuration1](../images/slack_jenkins_configuration1.png)
 
 `Step3` 으로 이동하여 `Team Subdomain` 와 `Integration Token Credential ID` 를 복사합니다.
 
-![slack_jenkins_configration2](../images/slack_jenkins_configuration2.png)
+![slack_jenkins_configuration2](../images/slack_jenkins_configuration2.png)
 
 기타 추가 설정을 마무리 되었다면 `Save Setting` 버튼을 클릭하고 다시 `Jenkins CI` -> `Configuration` 으로 이동하여 설정이 저장되었는지 확인합니다.
 
-![slack_jenkins_configration3](../images/slack_jenkins_configration3.png)
+![slack_jenkins_configuration3](../images/slack_jenkins_configuration3.png)
 
 ## Jenkins Plugin 설치
 
