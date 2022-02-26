@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_26 TILs and counting..._
+_27 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [프록시 패턴](java/proxy_pattern.md) - Sat Feb 26 16:18:40 2022 +0900
 - [객체지향 생활 체조](java/객체지향생활체조.md) - Wed Feb 23 23:44:52 2022 +0900
-- [전략 패턴](java/strategy_pattern.md) - Sun Feb 20 11:41:43 2022 +0900
 
 ### Categories
 
@@ -42,6 +42,7 @@ _26 TILs and counting..._
 - [intellij-java-google-style.xml 적용 방법](intellij/intellij-java-google-style.xml_적용_방법.md)
 
 ### [java](#java)
+- [프록시 패턴](java/proxy_pattern.md)
 - [전략 패턴](java/strategy_pattern.md)
 - [템플릿 메소드 패턴](java/template_method_pattern.md)
 - [객체지향 생활 체조](java/객체지향생활체조.md)
