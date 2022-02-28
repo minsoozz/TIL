@@ -56,6 +56,8 @@
 
 ![proxy4](../images/proxy4.png)
 
+![proxy5](../images/proxy5.png)
+
 ```
 public interface Subject {
   String doAction();
