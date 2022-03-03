@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_28 TILs and counting..._
+_30 TILs and counting..._
 
 ---
 
@@ -24,6 +24,7 @@ _28 TILs and counting..._
 - [redis](#redis)
 - [spring](#spring)
 - [vue](#vue)
+- [면접준비관련](#면접준비관련)
 
 ### [git](#git)
 - [git 로컬 계정 설정하는 방법](git/로컬_계정_설정.md)
@@ -70,6 +71,10 @@ _28 TILs and counting..._
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
+
+### [면접준비관련](#면접준비관련)
+- [기술면접 질문](면접준비관련/기술면접질문.md)
+- [인성면접 질문](면접준비관련/인성면접질문.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
