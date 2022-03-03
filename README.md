@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_31 TILs and counting..._
+_32 TILs and counting..._
 
 ---
 
@@ -58,6 +58,7 @@ _31 TILs and counting..._
 
 ### [kafka](#kafka)
 - [Kafka란](kafka/kafka란.md)
+- [토픽이란](kafka/토픽이란.md)
 
 ### [liunx](#liunx)
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md)
