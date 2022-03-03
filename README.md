@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_27 TILs and counting..._
+_28 TILs and counting..._
 
 ---
 
@@ -46,6 +46,7 @@ _27 TILs and counting..._
 - [전략 패턴](java/strategy_pattern.md)
 - [템플릿 메소드 패턴](java/template_method_pattern.md)
 - [객체지향 생활 체조](java/객체지향생활체조.md)
+- [다형성 특징](java/다형성_특징.md)
 
 ### [jenkins](#jenkins)
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
