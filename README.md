@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_32 TILs and counting..._
+_33 TILs and counting..._
 
 ---
 
@@ -44,6 +44,7 @@ _32 TILs and counting..._
 - [intellij-java-google-style.xml 적용 방법](intellij/intellij-java-google-style.xml_적용_방법.md)
 
 ### [java](#java)
+- [effectively final 이란](java/effectively final이란.md)
 - [프록시 패턴](java/proxy_pattern.md)
 - [전략 패턴](java/strategy_pattern.md)
 - [템플릿 메소드 패턴](java/template_method_pattern.md)
