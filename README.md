@@ -10,8 +10,8 @@ _33 TILs and counting..._
 
 ### 2 most recent TILs
 
-- [프록시 패턴](java/proxy_pattern.md) - Sat Feb 26 16:18:40 2022 +0900
-- [객체지향 생활 체조](java/객체지향생활체조.md) - Wed Feb 23 23:44:52 2022 +0900
+- [프록시 패턴](디자인패턴/proxy_pattern.md) - Sat Feb 26 16:18:40 2022 +0900
+- [객체지향 생활 체조](OOP/객체지향생활체조.md) - Wed Feb 23 23:44:52 2022 +0900
 
 ### Categories
 
@@ -45,10 +45,10 @@ _33 TILs and counting..._
 
 ### [java](#java)
 - [effectively final 이란](java/effectively final이란.md)
-- [프록시 패턴](java/proxy_pattern.md)
-- [전략 패턴](java/strategy_pattern.md)
-- [템플릿 메소드 패턴](java/template_method_pattern.md)
-- [객체지향 생활 체조](java/객체지향생활체조.md)
+- [프록시 패턴](디자인패턴/proxy_pattern.md)
+- [전략 패턴](디자인패턴/strategy_pattern.md)
+- [템플릿 메소드 패턴](디자인패턴/template_method_pattern.md)
+- [객체지향 생활 체조](OOP/객체지향생활체조.md)
 - [다형성 특징](java/다형성_특징.md)
 
 ### [jenkins](#jenkins)
@@ -79,8 +79,8 @@ _33 TILs and counting..._
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
 
 ### [면접준비관련](#면접준비관련)
-- [기술면접 질문](면접준비관련/기술면접질문.md)
-- [인성면접 질문](면접준비관련/인성면접질문.md)
+- [기술면접 질문](면접질문모음/기술면접질문.md)
+- [인성면접 질문](면접질문모음/인성면접질문.md)
 
 [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
 [2]: https://github.com/jbranchaud/til
