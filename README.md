@@ -4,17 +4,18 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_33 TILs and counting..._
+_34 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [프록시 패턴](디자인패턴/proxy_pattern.md) - Sat Feb 26 16:18:40 2022 +0900
-- [객체지향 생활 체조](OOP/객체지향생활체조.md) - Wed Feb 23 23:44:52 2022 +0900
+- [JUnit5 정리](spring/junit5.md) - Fri Feb 11 17:48:39 2022 +0900
+- [mockito 정리](spring/mockito.md) - Fri Feb 11 17:48:39 2022 +0900
 
 ### Categories
 
+- [OOP](#OOP)
 - [git](#git)
 - [http](#http)
 - [intellij](#intellij)
@@ -25,7 +26,13 @@ _33 TILs and counting..._
 - [redis](#redis)
 - [spring](#spring)
 - [vue](#vue)
-- [면접준비관련](#면접준비관련)
+- [디자인패턴](#디자인패턴)
+- [면접질문모음](#면접질문모음)
+
+### [OOP](#OOP)
+- [SOLID 원칙](OOP/SOLID원칙.md)
+- [객체지향 생활 체조](OOP/객체지향생활체조.md)
+- [다형성 특징](OOP/다형성_특징.md)
 
 ### [git](#git)
 - [git 로컬 계정 설정하는 방법](git/로컬_계정_설정.md)
@@ -45,11 +52,6 @@ _33 TILs and counting..._
 
 ### [java](#java)
 - [effectively final 이란](java/effectively final이란.md)
-- [프록시 패턴](디자인패턴/proxy_pattern.md)
-- [전략 패턴](디자인패턴/strategy_pattern.md)
-- [템플릿 메소드 패턴](디자인패턴/template_method_pattern.md)
-- [객체지향 생활 체조](OOP/객체지향생활체조.md)
-- [다형성 특징](java/다형성_특징.md)
 
 ### [jenkins](#jenkins)
 - [Jenkins를 이용한 배포 자동화(1) - Docker로 Jenkins 설치 방법](jenkins/jenkins를_이용한_배포_자동화_구축(1).md)
@@ -78,7 +80,12 @@ _33 TILs and counting..._
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
 
-### [면접준비관련](#면접준비관련)
+### [디자인패턴](#디자인패턴)
+- [프록시 패턴](디자인패턴/proxy_pattern.md)
+- [전략 패턴](디자인패턴/strategy_pattern.md)
+- [템플릿 메소드 패턴](디자인패턴/template_method_pattern.md)
+
+### [면접질문모음](#면접질문모음)
 - [기술면접 질문](면접질문모음/기술면접질문.md)
 - [인성면접 질문](면접질문모음/인성면접질문.md)
 
