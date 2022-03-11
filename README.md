@@ -30,9 +30,9 @@ _34 TILs and counting..._
 - [면접질문모음](#면접질문모음)
 
 ### [OOP](#OOP)
-- [SOLID 원칙](OOP/SOLID원칙.md)
-- [객체지향 생활 체조](OOP/객체지향생활체조.md)
-- [다형성 특징](OOP/다형성_특징.md)
+- [SOLID 원칙](oop/SOLID원칙.md)
+- [객체지향 생활 체조](oop/객체지향생활체조.md)
+- [다형성 특징](oop/다형성_특징.md)
 
 ### [git](#git)
 - [git 로컬 계정 설정하는 방법](git/로컬_계정_설정.md)
