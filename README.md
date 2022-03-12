@@ -4,35 +4,31 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_34 TILs and counting..._
+_35 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [JUnit5 정리](spring/junit5.md) - Fri Feb 11 17:48:39 2022 +0900
-- [mockito 정리](spring/mockito.md) - Fri Feb 11 17:48:39 2022 +0900
+- [객체지향 생활 체조](oop/객체지향생활체조.md) - Fri Mar 11 23:10:11 2022 +0900
+- [SOLID 원칙](oop/SOLID원칙.md) - Fri Mar 11 23:10:11 2022 +0900
 
 ### Categories
 
-- [OOP](#OOP)
 - [git](#git)
 - [http](#http)
 - [intellij](#intellij)
 - [java](#java)
 - [jenkins](#jenkins)
+- [jwt](#jwt)
 - [kafka](#kafka)
 - [liunx](#liunx)
+- [oop](#oop)
 - [redis](#redis)
 - [spring](#spring)
 - [vue](#vue)
 - [디자인패턴](#디자인패턴)
 - [면접질문모음](#면접질문모음)
-
-### [OOP](#OOP)
-- [SOLID 원칙](oop/SOLID원칙.md)
-- [객체지향 생활 체조](oop/객체지향생활체조.md)
-- [다형성 특징](oop/다형성_특징.md)
 
 ### [git](#git)
 - [git 로컬 계정 설정하는 방법](git/로컬_계정_설정.md)
@@ -59,6 +55,9 @@ _34 TILs and counting..._
 - [Jenkins를 이용한 배포 자동화(3) - Publish Over SSH 를 이용한 원격 서버 배포](jenkins/jenkins를_이용한_배포_자동화_구축(3).md)
 - [Jenkins를 이용한 배포 자동화(4) - Jenkins & Slack 연동 방법](jenkins/jenkins를_이용한_배포_자동화_구축(4).md)
 
+### [jwt](#jwt)
+- [JWT란](jwt/jwt란.md)
+
 ### [kafka](#kafka)
 - [Kafka란](kafka/kafka란.md)
 - [토픽이란](kafka/토픽이란.md)
@@ -66,6 +65,11 @@ _34 TILs and counting..._
 ### [liunx](#liunx)
 - [CentOS 7 Nginx 설치 방법](liunx/centos7_nginx_설치_방법.md)
 - [CentOS 7 사용자 계정 추가 방법](liunx/centos7_사용자_계정_추가_방법.md)
+
+### [oop](#oop)
+- [SOLID 원칙](oop/SOLID원칙.md)
+- [객체지향 생활 체조](oop/객체지향생활체조.md)
+- [다형성 특징](oop/다형성_특징.md)
 
 ### [redis](#redis)
 - [redis 정리](redis/redis_정리.md)
