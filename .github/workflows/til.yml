@@ -2,24 +2,25 @@ name: Build README
 on:
   push:
     branches:
-    - main
+      - main
     paths-ignore:
-    - README.md
+      - README.md
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Check out repo
-      uses: actions/checkout@v2
-      with:
-        # necessary for github-action-til-autoformat-readme
-        fetch-depth: 0
-    - name: Autoformat README
-      uses: cflynn07/github-action-til-autoformat-readme@1.1.0
-      with:
-        description: |
-          기록은 미래의 나에게 주는 소중한 선물
-        footer: |
-          [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
-          [2]: https://github.com/jbranchaud/til
-        list_most_recent: 2 # optional, lists most recent TILS below description
+      - name: Check out repo
+        uses: actions/checkout@v2
+        with:
+          # necessary for github-action-til-autoformat-readme
+          fetch-depth: 0
+      - name: Autoformat README
+        uses: cflynn07/github-action-til-autoformat-readme@1.1.0
+        with:
+          description: |
+            기록은 미래의 나에게 주는 소중한 선물
+          footer: |
+            [1]: https://simonwillison.net/2020/Apr/20/self-rewriting-readme/
+            [2]: https://github.com/jbranchaud/til
+          list_most_recent: 2 # optional, lists most recent TILS below description
+          date_format: "2020 Jan 15:04" # optional, must align to https://golang.org/pkg/time/#Time.Format
