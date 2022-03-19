@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_35 TILs and counting..._
+_36 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [# 프로세스와 쓰레드의 차이](os/프로세스와_쓰레드차이.md) - Sat Mar 19 23:51:30 2022 +0900
 - [객체지향 생활 체조](oop/객체지향생활체조.md) - Fri Mar 11 23:10:11 2022 +0900
-- [SOLID 원칙](oop/SOLID원칙.md) - Fri Mar 11 23:10:11 2022 +0900
 
 ### Categories
 
@@ -24,6 +24,7 @@ _35 TILs and counting..._
 - [kafka](#kafka)
 - [liunx](#liunx)
 - [oop](#oop)
+- [os](#os)
 - [redis](#redis)
 - [spring](#spring)
 - [vue](#vue)
@@ -70,6 +71,9 @@ _35 TILs and counting..._
 - [SOLID 원칙](oop/SOLID원칙.md)
 - [객체지향 생활 체조](oop/객체지향생활체조.md)
 - [다형성 특징](oop/다형성_특징.md)
+
+### [os](#os)
+- [# 프로세스와 쓰레드의 차이](os/프로세스와_쓰레드차이.md)
 
 ### [redis](#redis)
 - [redis 정리](redis/redis_정리.md)
