@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_36 TILs and counting..._
+_37 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
+- [DI와_IOC란](spring/di_ioc란.md) - Tue Mar 29 23:28:58 2022 +0900
 - [# 프로세스와 쓰레드의 차이](os/프로세스와_쓰레드차이.md) - Sat Mar 19 23:51:30 2022 +0900
-- [객체지향 생활 체조](oop/객체지향생활체조.md) - Fri Mar 11 23:10:11 2022 +0900
 
 ### Categories
 
@@ -82,6 +82,7 @@ _36 TILs and counting..._
 
 ### [spring](#spring)
 - [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
+- [DI와_IOC란](spring/di_ioc란.md)
 - [JUnit5 정리](spring/junit5.md)
 - [mockito 정리](spring/mockito.md)
 
