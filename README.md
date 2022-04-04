@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_37 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
@@ -85,6 +85,7 @@ _37 TILs and counting..._
 - [DI와_IOC란](spring/di_ioc란.md)
 - [JUnit5 정리](spring/junit5.md)
 - [mockito 정리](spring/mockito.md)
+- [의존관계 주입 방법](spring/다양한_의존관계_주입_방법.md)
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
