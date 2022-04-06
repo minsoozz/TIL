@@ -4,14 +4,14 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_35 TILs and counting..._
+_38 TILs and counting..._
 
 ---
 
 ### 2 most recent TILs
 
-- [객체지향 생활 체조](oop/객체지향생활체조.md) - Fri Mar 11 23:10:11 2022 +0900
-- [SOLID 원칙](oop/SOLID원칙.md) - Fri Mar 11 23:10:11 2022 +0900
+- [DI와_IOC란](spring/di_ioc란.md) - Tue Mar 29 23:28:58 2022 +0900
+- [# 프로세스와 쓰레드의 차이](os/프로세스와_쓰레드차이.md) - Sat Mar 19 23:51:30 2022 +0900
 
 ### Categories
 
@@ -24,6 +24,7 @@ _35 TILs and counting..._
 - [kafka](#kafka)
 - [liunx](#liunx)
 - [oop](#oop)
+- [os](#os)
 - [redis](#redis)
 - [spring](#spring)
 - [vue](#vue)
@@ -71,6 +72,9 @@ _35 TILs and counting..._
 - [객체지향 생활 체조](oop/객체지향생활체조.md)
 - [다형성 특징](oop/다형성_특징.md)
 
+### [os](#os)
+- [# 프로세스와 쓰레드의 차이](os/프로세스와_쓰레드차이.md)
+
 ### [redis](#redis)
 - [redis 정리](redis/redis_정리.md)
 - [Redis Cache TTL 이름별로 다르게 설정하는 방법](redis/spring_boot_redis_cache_TTL_이름별로_다르게_설정하는_방법.md)
@@ -78,8 +82,10 @@ _35 TILs and counting..._
 
 ### [spring](#spring)
 - [cannot find symbol 오류](spring/cannot_find_symbol_오류.md)
+- [DI와_IOC란](spring/di_ioc란.md)
 - [JUnit5 정리](spring/junit5.md)
 - [mockito 정리](spring/mockito.md)
+- [의존관계 주입 방법](spring/다양한_의존관계_주입_방법.md)
 
 ### [vue](#vue)
 - [v-shwow와 v-if/v-else 차이](vue/v-show_v-if_차이.md)
