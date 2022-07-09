@@ -4,7 +4,7 @@
 기록은 미래의 나에게 주는 소중한 선물
 
 
-_38 TILs and counting..._
+_39 TILs and counting..._
 
 ---
 
@@ -29,6 +29,7 @@ _38 TILs and counting..._
 - [spring](#spring)
 - [vue](#vue)
 - [디자인패턴](#디자인패턴)
+- [메모장](#메모장)
 - [면접질문모음](#면접질문모음)
 
 ### [git](#git)
@@ -94,6 +95,9 @@ _38 TILs and counting..._
 - [프록시 패턴](디자인패턴/proxy_pattern.md)
 - [전략 패턴](디자인패턴/strategy_pattern.md)
 - [템플릿 메소드 패턴](디자인패턴/template_method_pattern.md)
+
+### [메모장](#메모장)
+- [2022년 상반기 회고](메모장/2022년 상반기 회고.md)
 
 ### [면접질문모음](#면접질문모음)
 - [기술면접 질문](면접질문모음/기술면접질문.md)
